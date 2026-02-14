@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(190, 158, 87);
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+#quadrado{
+  width: 700px;
+  height: 800px;
+  background-color: rgb(22, 22, 22);
+  border: 7px solid rgb(53, 53, 53);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  gap: 10px;
+overflow-y: auto;
+}
+
+input{
+  background-color: white;
+  color: black;
+}
+
+button{
+  margin: 10px;
+  background-color: rgb(0, 240, 0);
+  border: 1px solid green;
+}
+
+h3{
+  margin: 10px;
+  background-color: azure;
+  border: 3px solid rgb(103,110,103);
+}
+
+p{
+  
+  width: 80%;
+  background-color: rgb(88, 88, 88);
+  border: 3px solid rgb(53, 53, 53);
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+#lista{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#lista p{
+  background-color: rgb(88, 88, 88);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(53, 53, 53);
+}
